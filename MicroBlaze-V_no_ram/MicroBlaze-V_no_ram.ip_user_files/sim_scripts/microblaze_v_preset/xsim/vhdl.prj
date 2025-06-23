@@ -1,0 +1,16 @@
+vhdl xil_defaultlib  \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_axi_timer_0_0/sim/microblaze_v_preset_axi_timer_0_0.vhd" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_axi_uartlite_0_0/sim/microblaze_v_preset_axi_uartlite_0_0.vhd" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_rst_clk_wiz_1_100M_0/sim/microblaze_v_preset_rst_clk_wiz_1_100M_0.vhd" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_1/sim/bd_15b6_psr_aclk_0.vhd" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_microblaze_riscv_0_axi_intc_1/sim/microblaze_v_preset_microblaze_riscv_0_axi_intc_1.vhd" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_mdm_riscv_0_0/sim/microblaze_v_preset_mdm_riscv_0_0.vhd" \
+"../../../bd/microblaze_v_preset/sim/microblaze_v_preset.vhd" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_microblaze_riscv_0_2/sim/microblaze_v_preset_microblaze_riscv_0_2.vhd" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_dlmb_v10_2/sim/microblaze_v_preset_dlmb_v10_2.vhd" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_ilmb_v10_2/sim/microblaze_v_preset_ilmb_v10_2.vhd" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_dlmb_bram_if_cntlr_2/sim/microblaze_v_preset_dlmb_bram_if_cntlr_2.vhd" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_ilmb_bram_if_cntlr_2/sim/microblaze_v_preset_ilmb_bram_if_cntlr_2.vhd" \
+
+# Do not sort compile order
+nosort

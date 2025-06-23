@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri May 23 16:14:21 2025
+# Process ID         : 952360
+# Current directory  : /home/vid/Desktop/Projects/MicroBlaze-V_no_ram/MicroBlaze-V_no_ram.runs/impl_1
+# Command line       : vivado -log microblaze_v_preset_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source microblaze_v_preset_wrapper.tcl -notrace
+# Log file           : /home/vid/Desktop/Projects/MicroBlaze-V_no_ram/MicroBlaze-V_no_ram.runs/impl_1/microblaze_v_preset_wrapper.vdi
+# Journal file       : /home/vid/Desktop/Projects/MicroBlaze-V_no_ram/MicroBlaze-V_no_ram.runs/impl_1/vivado.jou
+# Running On         : vid-Legion-5-15ACH6H
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.2 LTS
+# Processor Detail   : AMD Ryzen 7 5800H with Radeon Graphics
+# CPU Frequency      : 4115.885 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 14496 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 18791 MB
+# Available Virtual  : 9758 MB
+#-----------------------------------------------------------
+source microblaze_v_preset_wrapper.tcl -notrace

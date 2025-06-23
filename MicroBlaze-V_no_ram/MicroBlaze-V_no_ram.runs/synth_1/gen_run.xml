@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1748009525" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/microblaze_v_preset_wrapper.dcp">
+  <File Type="VDS-TIMINGSUMMARY" Name="microblaze_v_preset_wrapper_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="microblaze_v_preset_wrapper.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="microblaze_v_preset_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="microblaze_v_preset_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="microblaze_v_preset_wrapper_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="microblaze_v_preset_wrapper.vds"/>
+  <File Type="REPORTS-TCL" Name="microblaze_v_preset_wrapper_reports.tcl"/>
+  <File Type="VDS-TIMING-PB" Name="microblaze_v_preset_wrapper_timing_summary_synth.pb"/>
+  <File Type="PA-TCL" Name="microblaze_v_preset_wrapper.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/microblaze_v_preset/microblaze_v_preset.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PGENDIR/sources_1/bd/microblaze_v_preset/hdl/microblaze_v_preset_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../VitisWorkspace/MicroBlaze_real_time/Debug/MicroBlaze_real_time.elf">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="ScopedToRef" Val="microblaze_v_preset"/>
+        <Attr Name="ScopedToCell" Val="microblaze_riscv_0"/>
+        <Attr Name="IsVisible" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="microblaze_v_preset_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/microblaze_v_preset_wrapper.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="microblaze_v_preset_ilmb_v10_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="microblaze_v_preset_dlmb_v10_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="microblaze_v_preset_lmb_bram_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="microblaze_v_preset_ilmb_bram_if_cntlr_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="microblaze_v_preset_dlmb_bram_if_cntlr_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="microblaze_v_preset_microblaze_riscv_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="microblaze_v_preset_rst_clk_wiz_1_100M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="microblaze_v_preset_mdm_riscv_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="microblaze_v_preset_clk_wiz_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="microblaze_v_preset_axi_uartlite_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="microblaze_v_preset_microblaze_riscv_0_axi_intc_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="microblaze_v_preset_axi_timer_0_0"/>
+</GenRun>

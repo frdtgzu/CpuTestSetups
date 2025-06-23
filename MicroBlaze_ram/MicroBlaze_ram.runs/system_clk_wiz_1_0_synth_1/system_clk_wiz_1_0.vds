@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Thu May 22 18:22:48 2025
+# Process ID         : 9507
+# Current directory  : /home/vid/Desktop/Projects/MicroBlaze_ram/MicroBlaze_ram.runs/system_clk_wiz_1_0_synth_1
+# Command line       : vivado -log system_clk_wiz_1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_clk_wiz_1_0.tcl
+# Log file           : /home/vid/Desktop/Projects/MicroBlaze_ram/MicroBlaze_ram.runs/system_clk_wiz_1_0_synth_1/system_clk_wiz_1_0.vds
+# Journal file       : /home/vid/Desktop/Projects/MicroBlaze_ram/MicroBlaze_ram.runs/system_clk_wiz_1_0_synth_1/vivado.jou
+# Running On         : vid-Legion-5-15ACH6H
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.2 LTS
+# Processor Detail   : AMD Ryzen 7 5800H with Radeon Graphics
+# CPU Frequency      : 3940.431 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 14496 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 18791 MB
+# Available Virtual  : 13057 MB
+#-----------------------------------------------------------
+source system_clk_wiz_1_0.tcl -notrace
+INFO: [Common 17-1565] set_msg_config should not be used to change the severity of DRC/METHODOLOGY checks. Please use the 'set_property SEVERITY <NEW_SEVERITY> [get_<drc|methodology>_checks <ID>]' command instead.
+INFO: [Common 17-1565] set_msg_config should not be used to change the severity of DRC/METHODOLOGY checks. Please use the 'set_property SEVERITY <NEW_SEVERITY> [get_<drc|methodology>_checks <ID>]' command instead.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/vid/Desktop/VivadoIpLib'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2024.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_clk_wiz_1_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 48da98468b6b7166 to dir: /home/vid/Desktop/Projects/MicroBlaze_ram/MicroBlaze_ram.runs/system_clk_wiz_1_0_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/vid/Desktop/Projects/MicroBlaze_ram/MicroBlaze_ram.cache/ip/2024.2/4/8/48da98468b6b7166/system_clk_wiz_1_0_sim_netlist.v to /home/vid/Desktop/Projects/MicroBlaze_ram/MicroBlaze_ram.runs/system_clk_wiz_1_0_synth_1/system_clk_wiz_1_0_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/vid/Desktop/Projects/MicroBlaze_ram/MicroBlaze_ram.cache/ip/2024.2/4/8/48da98468b6b7166/system_clk_wiz_1_0_stub.v to /home/vid/Desktop/Projects/MicroBlaze_ram/MicroBlaze_ram.runs/system_clk_wiz_1_0_synth_1/system_clk_wiz_1_0_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/vid/Desktop/Projects/MicroBlaze_ram/MicroBlaze_ram.cache/ip/2024.2/4/8/48da98468b6b7166/system_clk_wiz_1_0_sim_netlist.vhdl to /home/vid/Desktop/Projects/MicroBlaze_ram/MicroBlaze_ram.runs/system_clk_wiz_1_0_synth_1/system_clk_wiz_1_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/vid/Desktop/Projects/MicroBlaze_ram/MicroBlaze_ram.cache/ip/2024.2/4/8/48da98468b6b7166/system_clk_wiz_1_0_stub.vhdl to /home/vid/Desktop/Projects/MicroBlaze_ram/MicroBlaze_ram.runs/system_clk_wiz_1_0_synth_1/system_clk_wiz_1_0_stub.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/vid/Desktop/Projects/MicroBlaze_ram/MicroBlaze_ram.cache/ip/2024.2/4/8/48da98468b6b7166/system_clk_wiz_1_0.dcp to /home/vid/Desktop/Projects/MicroBlaze_ram/MicroBlaze_ram.runs/system_clk_wiz_1_0_synth_1/system_clk_wiz_1_0.dcp.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP system_clk_wiz_1_0, cache-ID = 48da98468b6b7166.
+INFO: [Common 17-206] Exiting Vivado at Thu May 22 18:22:53 2025...

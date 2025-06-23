@@ -1,0 +1,221 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
+| Date         : Mon May 26 11:34:32 2025
+| Host         : vid-Legion-5-15ACH6H running 64-bit Ubuntu 24.04.2 LTS
+| Command      : report_methodology -file neorv32_test_setup_bootloader_methodology_drc_routed.rpt -pb neorv32_test_setup_bootloader_methodology_drc_routed.pb -rpx neorv32_test_setup_bootloader_methodology_drc_routed.rpx
+| Design       : neorv32_test_setup_bootloader
+| Device       : xc7a100tcsg324-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max checks: <unlimited>
+             Checks found: 37
++-----------+----------+--------------------------------------------+--------+
+| Rule      | Severity | Description                                | Checks |
++-----------+----------+--------------------------------------------+--------+
+| SYNTH-6   | Warning  | Timing of a RAM block might be sub-optimal | 34     |
+| TIMING-18 | Warning  | Missing input or output delay              | 3      |
++-----------+----------+--------------------------------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+SYNTH-6#1 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/core_complex_gen[0].neorv32_cpu_inst/neorv32_cpu_regfile_inst/register_file_fpga.reg_file_reg, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#2 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/io_system.neorv32_boot_rom_enabled.neorv32_boot_rom_inst/rdata_reg, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#3 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/memory_system.neorv32_int_dmem_enabled.neorv32_int_dmem_inst/dmem_ram_default.mem_ram_b0_reg_0, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#4 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/memory_system.neorv32_int_dmem_enabled.neorv32_int_dmem_inst/dmem_ram_default.mem_ram_b0_reg_1, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#5 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/memory_system.neorv32_int_dmem_enabled.neorv32_int_dmem_inst/dmem_ram_default.mem_ram_b0_reg_2, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#6 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/memory_system.neorv32_int_dmem_enabled.neorv32_int_dmem_inst/dmem_ram_default.mem_ram_b0_reg_3, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#7 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/memory_system.neorv32_int_dmem_enabled.neorv32_int_dmem_inst/dmem_ram_default.mem_ram_b1_reg_0, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#8 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/memory_system.neorv32_int_dmem_enabled.neorv32_int_dmem_inst/dmem_ram_default.mem_ram_b1_reg_1, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#9 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/memory_system.neorv32_int_dmem_enabled.neorv32_int_dmem_inst/dmem_ram_default.mem_ram_b1_reg_2, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#10 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/memory_system.neorv32_int_dmem_enabled.neorv32_int_dmem_inst/dmem_ram_default.mem_ram_b1_reg_3, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#11 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/memory_system.neorv32_int_dmem_enabled.neorv32_int_dmem_inst/dmem_ram_default.mem_ram_b2_reg_0, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#12 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/memory_system.neorv32_int_dmem_enabled.neorv32_int_dmem_inst/dmem_ram_default.mem_ram_b2_reg_1, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#13 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/memory_system.neorv32_int_dmem_enabled.neorv32_int_dmem_inst/dmem_ram_default.mem_ram_b2_reg_2, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#14 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/memory_system.neorv32_int_dmem_enabled.neorv32_int_dmem_inst/dmem_ram_default.mem_ram_b2_reg_3, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#15 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/memory_system.neorv32_int_dmem_enabled.neorv32_int_dmem_inst/dmem_ram_default.mem_ram_b3_reg_0, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#16 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/memory_system.neorv32_int_dmem_enabled.neorv32_int_dmem_inst/dmem_ram_default.mem_ram_b3_reg_1, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#17 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/memory_system.neorv32_int_dmem_enabled.neorv32_int_dmem_inst/dmem_ram_default.mem_ram_b3_reg_2, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#18 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/memory_system.neorv32_int_dmem_enabled.neorv32_int_dmem_inst/dmem_ram_default.mem_ram_b3_reg_3, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#19 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/memory_system.neorv32_int_imem_enabled.neorv32_int_imem_inst/imem_ram.imem_ram_default.mem_ram_b0_reg_0, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#20 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/memory_system.neorv32_int_imem_enabled.neorv32_int_imem_inst/imem_ram.imem_ram_default.mem_ram_b0_reg_1, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#21 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/memory_system.neorv32_int_imem_enabled.neorv32_int_imem_inst/imem_ram.imem_ram_default.mem_ram_b0_reg_2, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#22 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/memory_system.neorv32_int_imem_enabled.neorv32_int_imem_inst/imem_ram.imem_ram_default.mem_ram_b0_reg_3, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#23 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/memory_system.neorv32_int_imem_enabled.neorv32_int_imem_inst/imem_ram.imem_ram_default.mem_ram_b1_reg_0, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#24 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/memory_system.neorv32_int_imem_enabled.neorv32_int_imem_inst/imem_ram.imem_ram_default.mem_ram_b1_reg_1, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#25 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/memory_system.neorv32_int_imem_enabled.neorv32_int_imem_inst/imem_ram.imem_ram_default.mem_ram_b1_reg_2, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#26 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/memory_system.neorv32_int_imem_enabled.neorv32_int_imem_inst/imem_ram.imem_ram_default.mem_ram_b1_reg_3, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#27 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/memory_system.neorv32_int_imem_enabled.neorv32_int_imem_inst/imem_ram.imem_ram_default.mem_ram_b2_reg_0, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#28 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/memory_system.neorv32_int_imem_enabled.neorv32_int_imem_inst/imem_ram.imem_ram_default.mem_ram_b2_reg_1, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#29 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/memory_system.neorv32_int_imem_enabled.neorv32_int_imem_inst/imem_ram.imem_ram_default.mem_ram_b2_reg_2, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#30 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/memory_system.neorv32_int_imem_enabled.neorv32_int_imem_inst/imem_ram.imem_ram_default.mem_ram_b2_reg_3, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#31 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/memory_system.neorv32_int_imem_enabled.neorv32_int_imem_inst/imem_ram.imem_ram_default.mem_ram_b3_reg_0, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#32 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/memory_system.neorv32_int_imem_enabled.neorv32_int_imem_inst/imem_ram.imem_ram_default.mem_ram_b3_reg_1, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#33 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/memory_system.neorv32_int_imem_enabled.neorv32_int_imem_inst/imem_ram.imem_ram_default.mem_ram_b3_reg_2, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#34 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance neorv32_top_inst/memory_system.neorv32_int_imem_enabled.neorv32_int_imem_inst/imem_ram.imem_ram_default.mem_ram_b3_reg_3, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on rstn_i relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on uart0_rxd_i relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An output delay is missing on uart0_txd_o relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+

@@ -1,0 +1,68 @@
+verilog xil_defaultlib --include "/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/include" --include "../../../../MicroBlaze-V_no_ram.gen/sources_1/bd/microblaze_v_preset/ipshared/3cbc" --include "../../../../MicroBlaze-V_no_ram.gen/sources_1/bd/microblaze_v_preset/ipshared/f0b6/hdl/verilog" --include "../../../../MicroBlaze-V_no_ram.gen/sources_1/bd/microblaze_v_preset/ipshared/0127/hdl/verilog" --include "../../../../MicroBlaze-V_no_ram.gen/sources_1/bd/microblaze_v_preset/ipshared/ec67/hdl" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_microblaze_riscv_0_xlconcat_0/sim/microblaze_v_preset_microblaze_riscv_0_xlconcat_0.v" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_clk_wiz_1_0/microblaze_v_preset_clk_wiz_1_0_clk_wiz.v" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_clk_wiz_1_0/microblaze_v_preset_clk_wiz_1_0.v" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/sim/bd_15b6.v" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_0/sim/bd_15b6_one_0.v" \
+
+sv xil_defaultlib --include "/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/include" --include "../../../../MicroBlaze-V_no_ram.gen/sources_1/bd/microblaze_v_preset/ipshared/3cbc" --include "../../../../MicroBlaze-V_no_ram.gen/sources_1/bd/microblaze_v_preset/ipshared/f0b6/hdl/verilog" --include "../../../../MicroBlaze-V_no_ram.gen/sources_1/bd/microblaze_v_preset/ipshared/0127/hdl/verilog" --include "../../../../MicroBlaze-V_no_ram.gen/sources_1/bd/microblaze_v_preset/ipshared/ec67/hdl" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_2/sim/bd_15b6_arinsw_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_3/sim/bd_15b6_rinsw_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_4/sim/bd_15b6_awinsw_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_5/sim/bd_15b6_winsw_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_6/sim/bd_15b6_binsw_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_7/sim/bd_15b6_aroutsw_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_8/sim/bd_15b6_routsw_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_9/sim/bd_15b6_awoutsw_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_10/sim/bd_15b6_woutsw_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_11/sim/bd_15b6_boutsw_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_12/sim/bd_15b6_arni_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_13/sim/bd_15b6_rni_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_14/sim/bd_15b6_awni_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_15/sim/bd_15b6_wni_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_16/sim/bd_15b6_bni_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_17/sim/bd_15b6_s00mmu_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_18/sim/bd_15b6_s00tr_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_19/sim/bd_15b6_s00sic_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_20/sim/bd_15b6_s00a2s_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_21/sim/bd_15b6_sarn_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_22/sim/bd_15b6_srn_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_23/sim/bd_15b6_sawn_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_24/sim/bd_15b6_swn_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_25/sim/bd_15b6_sbn_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_26/sim/bd_15b6_s01mmu_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_27/sim/bd_15b6_s01tr_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_28/sim/bd_15b6_s01sic_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_29/sim/bd_15b6_s01a2s_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_30/sim/bd_15b6_sarn_1.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_31/sim/bd_15b6_srn_1.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_32/sim/bd_15b6_m00s2a_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_33/sim/bd_15b6_m00arn_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_34/sim/bd_15b6_m00rn_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_35/sim/bd_15b6_m00awn_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_36/sim/bd_15b6_m00wn_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_37/sim/bd_15b6_m00bn_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_38/sim/bd_15b6_m00e_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_39/sim/bd_15b6_m01s2a_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_40/sim/bd_15b6_m01arn_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_41/sim/bd_15b6_m01rn_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_42/sim/bd_15b6_m01awn_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_43/sim/bd_15b6_m01wn_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_44/sim/bd_15b6_m01bn_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_45/sim/bd_15b6_m01e_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_46/sim/bd_15b6_m02s2a_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_47/sim/bd_15b6_m02arn_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_48/sim/bd_15b6_m02rn_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_49/sim/bd_15b6_m02awn_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_50/sim/bd_15b6_m02wn_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_51/sim/bd_15b6_m02bn_0.sv" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/bd_0/ip/ip_52/sim/bd_15b6_m02e_0.sv" \
+
+verilog xil_defaultlib --include "/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/include" --include "../../../../MicroBlaze-V_no_ram.gen/sources_1/bd/microblaze_v_preset/ipshared/3cbc" --include "../../../../MicroBlaze-V_no_ram.gen/sources_1/bd/microblaze_v_preset/ipshared/f0b6/hdl/verilog" --include "../../../../MicroBlaze-V_no_ram.gen/sources_1/bd/microblaze_v_preset/ipshared/0127/hdl/verilog" --include "../../../../MicroBlaze-V_no_ram.gen/sources_1/bd/microblaze_v_preset/ipshared/ec67/hdl" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_smartconnect_0_0/sim/microblaze_v_preset_smartconnect_0_0.v" \
+"../../../bd/microblaze_v_preset/ip/microblaze_v_preset_lmb_bram_2/sim/microblaze_v_preset_lmb_bram_2.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
